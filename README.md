@@ -1,20 +1,20 @@
 # Getting Started with boiler-template
 
-**Note: before going to start with our boiler-template** 
+## `Note: before going to start with our boiler-template` 
 
 This project was bootstrapped with custome configuration. You need to know some important information about it. I develop this template for making work easy. You will get the folder "utils" under this folder you will get the folder component, page, toolkit in this folder. I worte the code for generating template files or creating files for functional component, class component, redux-toolkit with redux-sage steup. You don't need to create manually component or creating and setting up with redux & sage files. You just need to hit the command for generating all these files. You will get the command below and you can also configration according to your work happy journey :)
 
-## Github CI/CD
+## `Github CI/CD`
 
 For setting up the github CI/CD you can code in .github/workflows/ci.yml file.
 
-## Directory structures
+## `Directory structures`
 
 I already created the directory structure for the work you can cutomize or creating news according to your work.
 
 
 
-## Available Scripts
+## `Available Scripts`
 
 In the project directory available commands are:
 
