@@ -1,15 +1,14 @@
 import createSagaMiddleware from 'redux-saga';
-import { createStore, applyMiddleware, combineReducers } from 'redux'
+import { createStore, applyMiddleware, combineReducers } from 'redux';
 import { all } from 'redux-saga/effects';
 // reducers
-import userReducer from 'redux/reducers/userReducer'
+import userReducer from 'redux/reducers/userReducer';
 // sagas
-import userSaga from 'sagas/userSaga'
-
+import userSaga from 'redux/sagas/userSaga';
 // reducers
 const reducers = combineReducers({
-    user: userReducer,
-})
+    user: userReducer
+});
 
 //Add Sagas
 function* rootSaga() {

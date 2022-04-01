@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useEffect } from 'react';
 import { onGetAllUsers } from 'redux/actions/userAction';
 import { gotAllusers } from 'redux/reducers/userReducer';
-import { userInfos } from 'types'
+import { userInfos } from 'interfaces/'
 
 function App() {
 

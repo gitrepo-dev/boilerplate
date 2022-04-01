@@ -22,9 +22,14 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "create-component": "node ./src/utils/templates/component/create-component",
+    "create-page": "node ./src/utils/templates/page/component/create-component",
+    "create-page-class": "node ./src/utils/templates/page/create-page",
+    "create-toolkit": "node ./src/utils/templates/toolkit/create-toolkit"
   },
   "eslintConfig": {
     "extends": [

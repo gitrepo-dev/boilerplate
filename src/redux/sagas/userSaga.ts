@@ -1,7 +1,7 @@
 // libs
 import { SagaIterator } from 'redux-saga';
 import { call, put, takeLatest } from 'redux-saga/effects';
-import Types from '../redux/reduxTypes/userType'
+import Types from 'redux/types/userType'
 // actions
 import {
     onUserLoading,
@@ -9,16 +9,17 @@ import {
     // onGetUser,
     // onDeleteUser,
     // onUpdateUser
-} from '../redux/actions/userAction'
+} from '../actions/userAction'
 // services
 import {
     getAllusers,
     getUser,
     updateUser,
     deleteUser
-} from '../services/userServices'
+} from '../../services/userServices'
 // import { userAction } from '../types/user';
 import { setUser } from 'redux/reducers/userReducer';
+
 
 
 // fetching all users

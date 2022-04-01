@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit';
-import { userInterface } from 'types';
-import { userAction } from 'types/user';
+import { userInterface } from 'interfaces';
+import { userAction } from 'interfaces/user';
 
 const initialState: userInterface = {
     data: []

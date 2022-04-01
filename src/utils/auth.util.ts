@@ -1,4 +1,4 @@
-import { authType } from "types/auth";
+import { authType } from "interfaces/auth";
 
 /**
  * authantication

@@ -1,12 +1,47 @@
-# Getting Started with Create React App
+# Getting Started with boiler-template
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Note: before going to start with our boiler-template** 
+
+This project was bootstrapped with custome configuration. You need to know some important information about it. I develop this template for making work easy. You will get the folder "utils" under this folder you will get the folder component, page, toolkit in this folder. I worte the code for generating template files or creating files for functional component, class component, redux-toolkit with redux-sage steup. You don't need to create manually component or creating and setting up with redux & sage files. You just need to hit the command for generating all these files. You will get the command below and you can also configration according to your work happy journey :)
+
+## Github CI/CD
+
+For setting up the github CI/CD you can code in .github/workflows/ci.yml file.
+
+## Directory structures
+
+I already created the directory structure for the work you can cutomize or creating news according to your work.
+
+
 
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory available commands are:
+
+1) "npm run dev" command for start the development version:
+
+### `npm run dev`
+
+2) "npm start" command for start the production version:
 
 ### `npm start`
+
+3) "npm run create-component component-name" command is for creating a functionl component under ./src/component directory:
+
+### `npm run create-component test`
+
+4) "npm run create-page component-name" command is for creating a functionl component under ./src/page directory:
+
+### `npm run create-page test`
+
+5) "npm run create-page-class component-name" command is for creating a class component under ./src/page directory:
+
+### `npm run create-page-class test`
+
+6) "npm run create-toolkit component-name" command is for creating a steup of redux toolkit with redux sage component under ./src/redux directory after created setup goto ./src/redux directory and open the file store.ts and import reducer & sage file in it to work properly:
+
+### `npm run create-toolkit test`
+
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.

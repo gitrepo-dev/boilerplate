@@ -1,4 +1,4 @@
-import Types from 'redux/reduxTypes/userType'
+import Types from 'redux/types/userType'
 
 /***
  * loading
